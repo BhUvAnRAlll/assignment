@@ -1,0 +1,331 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        h1{
+            color: blue;
+            text-align: center;
+        }
+
+        #main{
+        color: aliceblue;
+            margin-left:300px ;
+            width: 780px;
+            height: 1500px;
+            background-color: rgb(236, 135, 219);
+        }
+
+       
+
+
+    </style>
+</head>
+<body>
+    <h1><u>Student Registration Form Using Table in Html</u></h1>
+
+    <div id="main">
+          
+        <form action="">
+
+            <table cellspacing="20px">
+
+                <!--First Name-->
+                <tr>
+                    <td>
+                        <label for="fname">First Name:</label>
+                    </td>
+
+                    <td>
+                        <input type="text" name="fname" id="fname"> (Max 50 Characters Allowed)
+                    </td>
+                </tr>
+
+
+
+                <!--Last Name-->
+
+                <tr>
+                    <td>
+                        <label for="lname">Last Name:</label>
+                    </td>
+
+                    <td>
+                        <input type="text" name="lname" id="lname"> (Max 50 Characters Allowed)
+                    </td>
+                </tr>
+
+
+
+                <!--Email-->
+
+                <tr>
+                    <td>
+                        <label for="email">Email:</label>
+
+                    </td>
+
+                    <td>
+                        <input type="email" name="email" id="email">
+                    </td>
+                </tr>
+
+
+
+                <!--Phone number-->
+
+                <tr>
+                    <td>
+                        <label for="number">Mobile Number:</label>
+                    </td>
+
+                    <td>
+                        <input type="tel" name="number" id="number"> (10 Digits Allowed)
+                    </td>
+                </tr>
+
+
+                <!--Gender-->
+
+                <tr>
+                    <td>
+                        <label for="gen">Gender:</label>
+                    </td>
+
+                    <td>
+                        <input type="radio" name="gen" value="male" id="female"> <label for="male">Male</label>
+                        <input type="radio" name="gen" value="female" id="female"> <label for="male">Female</label>
+                    </td>
+                </tr>
+
+
+                <!--DOB-->
+
+                <tr>
+                    <td>
+                        <label for="dob">Date Of Birth(DOB)</label>
+                    </td>
+
+                    <td>
+                        <input type="date" name="dob" id="dob">
+                    </td>
+                </tr>
+
+
+                <!--address-->
+
+                <tr>
+                    <td>
+                        <label for="add">Address:</label>
+
+                    </td>
+
+                    <td>
+                        <textarea name="add" id="add" rows="8" cols="45"></textarea>
+                    </td>
+                </tr>
+
+
+                <!--city-->
+
+                <tr>
+                    <td>
+                        <label for="city">City:</label>
+                    </td>
+
+                    <td>
+                        <input type="text" name="city" id="city">(Max 50 Characters Allowed)
+                    </td>
+                </tr>
+
+
+                <!--Pin code-->
+
+                <tr>
+                    <td>
+                        <label for="pin">Pincode:</label>
+                        
+                    </td>
+
+                    <td>
+                        <input type="text" name="pin" id="pin"> (Max 6 Numbers Allowed)
+                    </td>
+                </tr>
+
+
+                <!--state-->
+
+                <tr>
+                    <td>
+                        <label for="state">State:</label>
+                    </td>
+
+                    <td>
+                        <input type="text" value="Karnataka"  name="state" id="name"> (Max 50 Characters Allowed)
+                    </td>
+                </tr>
+
+
+                <!--country-->
+
+                <tr>
+                    <td>
+                        <label for="country">Country:</label>
+                    </td>
+
+                    <td>
+                        <input type="text" value="India" name="country" id="country" readonly >
+
+                    </td>
+
+                </tr>
+
+                <!--Hobbies-->
+
+                <tr>
+                    <td>
+                        <label for="hobbies">Hobbies:</label>
+                    </td>
+
+                    <td>
+
+                        <input type="checkbox"  name="hobbies" value="drawing" id="drawing"> <label for="drawing">Drawing</label>
+
+                        <input type="checkbox" name="hobbies" value="singing" id="sing"> <label for="sing">Singing</label>
+
+                        <input type="checkbox" name="hobbies" value="danceing" id="dance"><label for="dance">Dancing</label>
+
+                        <input type="checkbox" name="hobbies"  value="skectch" id="skectch"> <label for="skectch">Sketching</label>
+
+                        <input type="checkbox" name="hobbies" value="others" id="others"> <label for="others">Others</label>
+                        <input type="text" name="hobbies" value="Ex:-teaching" id="others">  (Max 50 Characters Allowed)
+
+                       
+
+                    </td>
+                </tr>
+
+
+                <tr></tr><tr></tr>
+                <!--qualification-->
+
+                <tr>
+                    <td rowspan="5"><label for="quli">Qualification:</label></td>
+
+                    <td>
+                        <input type="checkbox" name="quli" id="high" value="high"><label for="high">High School(10th)</label>
+                        
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="quli" id="higher" value="higher"><label for="higher">Higher School(12th)</label>
+                    </td>
+                   
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox"  name="quli" value="grad" id="grad"> <label for="grad">Graduation(Bachelors)</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                         <input type="checkbox"  name="quli" value="mast" id="mast"> <label for="mast"> Post Graduation(Masters)</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="checkbox" name="quli" value="phd" id="phd"> <label for="phd">Phd</label>
+                    </td>
+                </tr>
+
+
+                <tr>
+                
+                </tr>
+                <tr></tr>
+                <tr></tr>
+
+
+
+                <!--course-->
+
+                <tr>
+                    <td rowspan="8">
+                        <label for="course">Courses Applied For:</label>
+                    </td>
+
+                    <td>
+                        <input type="radio" name="course" value="bca" id="bca"><label for="bca">BCA (Bachelor of Computer Applications)</label>
+                    </td>
+                </tr>
+
+                <tr>
+                  <td>
+                      <input type="radio" name="course" value="bcome" id="bcome"> <label for="bcome">B.Com (Bachelor of Commerce)</label>
+                      </td>
+                </tr>
+                  
+
+                <tr>
+                    <td>
+                        <input type="radio" name="course" value="bsc" id="bsc"><label for="bsc">B.Sc (Bachelor of Science)</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="radio" name="course" value="ba" id="ba"><label for="ba">BA (Bachelor of Arts)</label>
+                    </td>
+                </tr>
+
+                <tr>
+                    <td>
+                        <input type="radio" name="course" value="mca" id="mca"> <label for="mca">MCA (Master of Computer Applications)</label>
+                    </td>
+                </tr>
+
+                <tr>
+                  <td>
+                      <input type="radio" name="course" value="mcome" id="mcome"> <label for="mcome">M.Com (Master of Commerce)</label>
+                      </td>
+                </tr>
+
+                  <tr>
+                    <td>
+                        <input type="radio" name="course" value="msc" id="msc"><label for="msc">M.Sc (Masters of Science)</label>
+                    </td>
+                </tr>
+
+
+
+                 <tr>
+                    <td>
+                        <input type="radio" name="course" value="ma" id="ma"><label for="ma">MA (Masters of Arts)</label>
+                    </td>
+                </tr>
+
+                <tr></tr>
+
+                <tr>
+                    <tr>
+                        <td colspan="2" align="center">
+                            <input type="submit" name="submit" id="submit">
+                            <input type="reset" name="reset" id="reset">
+                        </td>
+                    </tr>
+                </tr>
+            </table>
+
+        </form>
+       
+    </div>
+
+</body>
+</html>
