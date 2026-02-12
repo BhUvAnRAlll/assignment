@@ -1,0 +1,144 @@
+body{
+ background-color: rgba(21, 6, 91);
+}
+
+
+/**/
+/**/
+
+
+/*table*/
+#table{
+    
+    width: 1000px;
+    height: 1200px;
+    border: 2px solid rgba(21, 6, 91) ;
+    margin: 50px 50px 50px 200px ;
+    border-radius: 15px;
+    transition: 1s;
+    background-image: url("bc.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+
+}
+#table:hover{
+    box-shadow: 3px 16px 25px rgba(233, 0, 162);
+}
+
+
+
+/*Logo And TiTle*/
+
+
+.title{
+    width: 700px;
+    height: 350px;
+    
+    margin: 50px 10px 10px 160px;
+}
+.titleL{
+    width: 350px;
+    height: 200px;
+    
+    margin: 5px 5px 2px 170px;
+}
+
+.titleL >img{
+    margin: 20px 10px 5px 90px;
+}
+
+.titleL>hr{
+   
+    background-color: rgba(255, 138, 5);
+    border: 1px solid rgba(255, 138, 5);
+    border-radius: 15px;
+}
+
+/*Title name*/
+
+.titleT{
+
+    width: 680px;
+    height:108px ;
+    
+    margin: 5px 10px 10px 10px;
+    
+    text-align: center;
+}
+.titleT>h1{
+    font-size: 55px;
+    margin: 0px;
+    color:  rgba(255, 138, 5);
+}
+.titleT>p{
+    color: whitesmoke;
+}
+
+/*matches*/
+
+
+.matchesM{
+    width: 710px;
+    height: 700px;
+   
+    margin: 10px 10px 10px 158px;
+}
+
+.m1{
+    width: 300px;
+    height: 80px;
+    border: 3px solid white;
+    border-radius: 10px;
+    display: flex;
+    transition: 1s;
+    
+   
+}
+a{
+     text-decoration: none;
+}
+a:link{
+    color: whitesmoke;
+}
+
+a:visited{
+    color: whitesmoke;
+}
+.m1:hover{
+    box-shadow: 5px 8px 10px rgba(234, 0, 162);
+    transition: 1s;
+}
+
+.team{
+    width: 170px;
+    height: 80px;
+    background-color:  rgba(255, 138, 5);
+    border-radius: 5px 0px 0px 5px;
+    display: flex;
+}
+.team>img{
+    margin: 12px 5px 0px 10px;
+    border: 3px solid whitesmoke;
+    border-radius: 5px;
+
+}
+.team>pre{
+    margin:0px ;
+    margin-top: 12px;
+    font-weight: 800;
+    color: whitesmoke;
+   
+}
+
+#place{
+    width: 130px;
+    height: 80px;
+    
+    color: whitesmoke;
+    text-align: center;
+}
+
+#place>p{
+    margin: 12px 5px 0px 12px;
+}
