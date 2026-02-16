@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <style>
+*{
+    box-sizing: border-box;
+    margin: 0px;
+    padding: 0px;
+}
+
+        #blog-card{
+            width: 400px;
+            height: 400px;
+            background: lightgray;
+        }
+
+        .title{
+            color: blue;
+            font-weight: bolder;
+        }
+
+        p[data-role="writer"] {
+      font-style: italic;
+}
+#blog-card >P{
+    color: darkgray;
+}
+
+.read-more:visited{
+color: green;
+}
+.read-more:hover{
+    color: orange;
+}
+
+    </style>
+
+</head>
+<body>
+    <div id="blog-card">
+
+        <h1 class="title">
+            My profile
+        </h1>
+   <p data-role="writer">Written by Bhuvan Raj</p>
+   <a href="" class="read-more">Read more</a>
+    </div>
+</body>
+</html>
